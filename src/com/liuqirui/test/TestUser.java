@@ -17,24 +17,31 @@ public class TestUser {
 	private UserService us = new UserServiceImpl();
 	
 	@Test
-	public void testDoLogin() {
-		User user = us.doLogin("刘奇瑞", "湖南省的某个地方");
-		if(user != null) {
-			System.out.println(user);
-		}
+	public void ttttt() {
+		System.out.println("999999999999999999");
 	}
 	
 	
-	@Test
-	public void testSelectAllUserType() {
-		List<UserType> userTypeList = utd.selectAllUserType();
-		if(userTypeList != null){
-			for (UserType userType : userTypeList) {
-				System.out.println("姓名："+userType.getPersontype());
-			}
-		}else {
-			System.out.println("系统异常！");
-		}
-	}
+	
+//	@Test
+//	public void testDoLogin() {
+//		User user = us.doLogin("鍒樺鐟�", "婀栧崡鐪佺殑鏌愪釜鍦版柟");
+//		if(user != null) {
+//			System.out.println(user);
+//		}
+//	}
+//	
+//	
+//	@Test
+//	public void testSelectAllUserType() {
+//		List<UserType> userTypeList = utd.selectAllUserType();
+//		if(userTypeList != null){
+//			for (UserType userType : userTypeList) {
+//				System.out.println("濮撳悕锛�"+userType.getPersontype());
+//			}
+//		}else {
+//			System.out.println("绯荤粺寮傚父锛�");
+//		}
+//	}
 	
 }
